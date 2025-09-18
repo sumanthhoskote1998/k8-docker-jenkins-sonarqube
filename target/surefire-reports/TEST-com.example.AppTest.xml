@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.045" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.062" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
+    <property name="sonar.login" value="sqp_07ebae4f9abb12d473d8e84e8ea97c9524f73479"/>
+    <property name="sonar.host.url" value="http://13.60.239.186:9000"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/home/ubuntu/java-projects/calculator-app/target/test-classes:/home/ubuntu/java-projects/calculator-app/target/classes:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/ubuntu/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/ubuntu/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
@@ -11,7 +13,7 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/ubuntu/java-projects/calculator-app/target/surefire/surefirebooter13159437697621473949.jar /home/ubuntu/java-projects/calculator-app/target/surefire 2025-09-18T08-00-28_673-jvmRun1 surefire7809518210050207866tmp surefire_012998805488331565462tmp"/>
+    <property name="sun.java.command" value="/home/ubuntu/java-projects/calculator-app/target/surefire/surefirebooter16057432920806558235.jar /home/ubuntu/java-projects/calculator-app/target/surefire 2025-09-18T09-55-32_266-jvmRun1 surefire17379393809496407270tmp surefire_018222612023017943616tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/ubuntu/java-projects/calculator-app/target/test-classes:/home/ubuntu/java-projects/calculator-app/target/classes:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/ubuntu/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/ubuntu/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/ubuntu/java-projects/calculator-app/target/surefire/surefirebooter13159437697621473949.jar"/>
+    <property name="surefire.real.class.path" value="/home/ubuntu/java-projects/calculator-app/target/surefire/surefirebooter16057432920806558235.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+8-Ubuntu-0ubuntu124.04.1"/>
     <property name="user.name" value="ubuntu"/>
@@ -43,6 +45,7 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
+    <property name="sonar.projectKey" value="calculator-app"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Ubuntu"/>
@@ -51,8 +54,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testMultiplication" classname="com.example.AppTest" time="0.019"/>
-  <testcase name="testAddition" classname="com.example.AppTest" time="0"/>
-  <testcase name="testDivision" classname="com.example.AppTest" time="0"/>
-  <testcase name="testSubtraction" classname="com.example.AppTest" time="0.005"/>
+  <testcase name="testMultiplication" classname="com.example.AppTest" time="0.041"/>
+  <testcase name="testAddition" classname="com.example.AppTest" time="0.003"/>
+  <testcase name="testDivision" classname="com.example.AppTest" time="0.001"/>
+  <testcase name="testSubtraction" classname="com.example.AppTest" time="0.002"/>
 </testsuite>

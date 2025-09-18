@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        SONARQUBE_URL = 'http://<EC2-PUBLIC-IP>:9000'  // Replace with your SonarQube URL
-        SONARQUBE_TOKEN = credentials('sonar-token')    // Create Jenkins secret for token
+        SONARQUBE_URL = 'http://13.60.239.186:9000'  // Replace with your SonarQube URL
+        SONARQUBE_TOKEN = credentials('sqp_07ebae4f9abb12d473d8e84e8ea97c9524f73479')    // Create Jenkins secret for token
         DOCKER_IMAGE = 'calculator-app'
     }
 
@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-repo/calculator-app.git'
+                git branch: 'main', url: 'https://github.com/sumanthhoskote1998/k8-docker-jenkins-sonarqube.git'
             }
         }
 
